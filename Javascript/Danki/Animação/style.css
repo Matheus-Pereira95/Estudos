@@ -1,0 +1,51 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(214, 3, 3);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: 1s;
+   
+}
+
+#txtBox{
+    padding: 39%;
+    font-size: 32px;
+}
+
+.moverEsquerda{
+    transition: 1s;
+    background-color: blue !important;
+    border-radius: 50%;
+   
+   
+    
+}
+
+#conteudo span{
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+
+}
+
+#conteudo p{
+    overflow: hidden;
+    height: 0px;
+    transition: 1s;
+}
+
+#conteudo h2{
+    font-size: 30px;
+    
+}
+
+.vejaMais{
+    height: 100px !important;
+
+    
+}
+

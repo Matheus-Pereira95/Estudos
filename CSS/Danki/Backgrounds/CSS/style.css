@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0
+}
+
+html, body{
+    height: 100%;
+}
+
+div{
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/Red-Illustrated-Landscape-Sunset-Wallpaper-Mural-plain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

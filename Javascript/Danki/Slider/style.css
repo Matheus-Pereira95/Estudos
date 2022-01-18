@@ -1,0 +1,48 @@
+#container{
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+#container img{
+    position: absolute;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px black;
+}
+
+/*#container img:hover{
+    width: 130%;
+    height: 130%;
+}*/
+
+#bullets{
+    text-align: center;
+}
+
+#bullet-single{
+    cursor:pointer;
+    margin: 70px 8px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+#active-bullets{
+    cursor:pointer;
+    margin: 70px 8px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #333;
+}

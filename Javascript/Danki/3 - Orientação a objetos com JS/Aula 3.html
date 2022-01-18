@@ -1,0 +1,54 @@
+<html>
+    <body>
+        <script>
+            // Funções e instancias 
+
+            function Pessoa(){
+                this.nome = "Matheus";
+                this.idade = 26;
+                this.printNome = function(){
+                    console.log(this.idade+ 'anos')
+                    alert(this.nome)
+                    alert(this.idade+ 'anos')
+                    alert('Você esta no caminho certo jovem gafanhoto')
+                }
+            }
+
+            var homem_1 = new Pessoa();
+            var homem_2 = new Pessoa();
+
+            homem_2.nome = ' Juca '
+            homem_2.idade =  80
+            homem_2.printNome = function(){
+                alert('S O C O R R O')
+                alert('O homem de nome '+ this.nome + 'matou um total de ' + this.idade+ " pessoas")
+            }
+
+            homem_2.printNome();
+
+
+/*
+            function Animal(){
+                this.raca = "Pug";
+                this.peso = 5;
+                this.printRaca = function(){
+                    alert(this.raca)
+                    alert(this.peso +'kg')
+                }
+            }
+
+
+            var dog = new Animal();
+            var dog_2 = new Animal();
+
+            dog_2.raca = 'Labrador'
+            dog_2.peso = 15   
+            
+            dog_2.printRaca();
+
+*/
+
+
+        </script>
+    </body>
+</html>

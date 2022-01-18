@@ -1,0 +1,45 @@
+<html>
+    <body>
+        <script>
+
+         /*
+            "Modo 1"
+           
+            class Animal{
+                constructor(){
+                    this.nome = 'Catiorro'
+                }
+            }
+
+            animal = new Animal();
+
+            alert(animal.nome)
+        */
+
+        class Animal{
+            constructor(nome,peso,cor){
+                this.nome = nome
+                this.peso = peso
+                this.cor = cor
+            }
+
+            printNome(){
+                return this.nome + this.peso + this.cor
+                
+            }
+        }
+
+        animal_1 = new Animal(' Catiorro ',' 9kg ',' preto ')
+
+       class Cachorro extends Animal{
+           constructor(nome, peso , cor)
+           super(nome, peso, cor)
+       }
+
+       cachorro = new Cachorro('Rocky');
+
+       alert(cachorro.printNome);
+
+        </script>
+    </body>
+</html>
