@@ -43,7 +43,7 @@ const UseRef = (props) => {
                     onChange={e => setValue2(e.target.value)} />
             </div>
 
-            <SectionTitle title="Exercicio #3"/>
+            <SectionTitle title="Exercicio #3"/> 
 
 
 
