@@ -19,7 +19,8 @@ p{
 
 .top{
     background-color: #ffffff;
-    padding: 30px;
+    padding: 18px;
+    margin-top: -10px;
 }
 
 p em strong {
@@ -47,10 +48,11 @@ p em strong {
     width: 20%;
     margin-right: 15%;
     list-style: none;
-    padding: 20px;
+    font-size: 25px;
 }
 
-lista li {
-    padding: 40px;
+.lista ul li {
+    margin-bottom: 30px;
+
 }
 
