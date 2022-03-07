@@ -1,16 +1,13 @@
 import React from "react";
-import Apresentacao from "./revisao-html-css/Apresentacao";
+import { BrowserRouter } from 'react-router-dom'
 import Header from "./revisao-html-css/Header";
-
-
+import Routes from "./Routes"
 
 function App() {
-  return(
-    <div>
-      <Header/>
-      <Apresentacao/>
-
-    </div>
+  return (
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   )
 }
 

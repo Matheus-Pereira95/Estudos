@@ -1,7 +1,7 @@
 import React from "react";
-import './Apresentacao.css'
-import Banner from './../components/img/banner.jpg'
-import Beneficios from './../components/img/beneficios.jpg'
+import './Home.css'
+import Banner from '../../components/img/banner.jpg'
+import Beneficios from '../../components/img/beneficios.jpg'
 
 
 export default props => {
