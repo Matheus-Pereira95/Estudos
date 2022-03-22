@@ -8,11 +8,12 @@ export default props => {
         <header className="header">
             <img src={ Logo } />
             <h1> Barbearia Alura </h1>
-
+            
             <ul className="lista-header">
                 <li> <Link to="/"> Home </Link></li>
                 <li> <Link to="/services"> Serviços </Link></li>
                 <li> <Link to="contact"> Contato  </Link></li>
+                <li> <Link to="about"> Sobre  </Link></li>
                 
             </ul>
 

@@ -2,8 +2,12 @@ import React from "react";
 
 export default props => {
     return (
-        <div>
+        <main>
             <h1> Pagina contatos </h1>
-        </div>
+
+            <ul>
+                <li> List </li>
+            </ul>
+        </main>
     )
 }

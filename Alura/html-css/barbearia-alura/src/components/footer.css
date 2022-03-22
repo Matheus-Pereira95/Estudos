@@ -1,0 +1,25 @@
+.footer {
+    margin-bottom: 0px;
+    overflow: hidden;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    background-image: url("../imgs/bg.jpg");
+}
+
+.footer img {
+    display: inline;
+    margin: 10px;
+    width: 100px;
+    height: 130px;
+}
+
+.footer p { 
+    margin: 4px 0;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+
+}
