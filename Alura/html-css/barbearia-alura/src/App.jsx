@@ -8,12 +8,11 @@ import Footer from "./components/Footer";
 export default props => {
     return (
         <BrowserRouter>
-
-            <Header />
-            <Routes />
-            <Footer />
-
-
+            <div className="structure">
+                <Header />
+                <Routes />
+                <Footer />
+            </div>
         </BrowserRouter>
     )
 }

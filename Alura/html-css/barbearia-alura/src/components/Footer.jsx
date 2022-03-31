@@ -7,7 +7,7 @@ const Footer = function(){
         <footer className="footer">
             <img src={LogoBranco}/>
 
-            <p> Copyright Alura 2022 </p>
+            <p> Copyright Alura 2022 by Matheus Pereira</p>
 
 
 

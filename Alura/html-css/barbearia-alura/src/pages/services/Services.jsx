@@ -28,8 +28,6 @@ export default props => {
                 </li>
             </ul>
 
-
-
         </main>
 
     )

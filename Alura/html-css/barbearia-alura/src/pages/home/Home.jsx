@@ -17,8 +17,7 @@ export default props => {
 
             <div className="lista">
                 <h2> Beneficios </h2>
-
-                <ul>
+                <ul className="box__itens">
                     <li className="itens"> Atendimento aos Clientes</li>
                     <li className="itens"> Espaço diferenciado</li>
                     <li className="itens"> Localização</li>
